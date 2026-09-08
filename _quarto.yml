@@ -1,27 +1,71 @@
 project:
   type: website
   output-dir: docs
-  
+  resources:
+    - "Images/"
+    - "Dossier_Coverdrive.pdf"
+
+lang: es
+
 website:
-  title: "MY WEB SITE"
+  title: "COVERDRIVE"
+  description: "Coverdrive — Banda de Heavy Rock / Rock Alternativo / Grunge en Santiago, Chile. Covers de System of a Down, Alice in Chains, Foo Fighters, Audioslave y más."
+  image: Images/Logo.jpeg
+  favicon: Images/Logo.jpeg
+  twitter-card: true
+  open-graph: true
+  # site-url: "https://<tu-usuario>.github.io/<tu-repo>/"  # descomenta y completa al publicar
+
   navbar:
+    logo: Images/Logo.jpeg
+    title: false
+    background: dark
+    pinned: true
     left:
-      - href: index.qmd
-        text: Home
-      - projects.qmd
-    tools:
-      - icon: twitter
-        href: https://twitter.com/
-      - icon: github
-        href: https://github.com/YOURUSERNAME/YOURREPO
+      - text: Inicio
+        href: index.qmd
+      - text: Repertorio
+        href: repertorio.qmd
+      - text: Banda
+        href: banda.qmd
+      - text: Rider Técnico
+        href: rider.qmd
+      - text: Contacto
+        href: contacto.qmd
+    right:
+      - icon: instagram
+        href: https://www.instagram.com/coverdrive.rock/
+        aria-label: Instagram
+        target: _blank
+      - icon: facebook
+        href: https://www.facebook.com/people/Coverdrive/61593947563282/
+        aria-label: Facebook
+        target: _blank
+      - icon: envelope
+        href: mailto:rock.coverdrive@gmail.com
+        aria-label: Correo
+
   page-footer:
-    right: "Built with [Quarto](https://quarto.org/)"
-    left: "&copy; Copyright 2023, YOUR NAME"
+    background: dark
+    left: "© 2026 Coverdrive · Santiago, Chile"
+    center:
+      - text: "Heavy Rock · Rock Alternativo · Grunge"
+    right:
+      - icon: instagram
+        href: https://www.instagram.com/coverdrive.rock/
+        aria-label: Instagram
+      - icon: facebook
+        href: https://www.facebook.com/people/Coverdrive/61593947563282/
+        aria-label: Facebook
+      - icon: envelope
+        href: mailto:rock.coverdrive@gmail.com
+        aria-label: Correo
 
 format:
   html:
-    theme: cerulean
-    toc: true
-
-editor: source
-
+    theme: [darkly, styles.scss]
+    include-in-header: partials/fonts.html
+    toc: false
+    smooth-scroll: true
+    grid:
+      body-width: 1000px

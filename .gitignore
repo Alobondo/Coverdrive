@@ -1,4 +1,8 @@
-.Rproj.user
-.Rhistory
-.RData
-.Ruserdata
+.quarto/
+/.luarc.json
+.Rproj.user/
+*.Rhistory
+*.RData
+
+/.quarto/
+**/*.quarto_ipynb

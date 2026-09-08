@@ -1,0 +1,37 @@
+---
+title: "Rider Técnico"
+page-layout: full
+toc: false
+---
+
+::: {.page-banner}
+# Ficha Técnica
+
+::: {.page-banner-sub}
+Rider de Sonido Básico
+:::
+:::
+
+::: {.container}
+
+Necesidades de escenario para la presentación en vivo del cuarteto.
+
+### Sistema de P.A.
+
+Acorde al aforo del recinto (subwoofers y tops de alta potencia).
+
+### Microfonía
+
+- **Batería:** Kit completo (bombo, caja, toms y overheads).
+- **Amplificadores / Línea:** Captación para guitarra eléctrica y bajo directo a consola/amplificador.
+- **Voces:** 1 micrófono principal + 2 micrófonos para coros.
+
+### Espacio
+
+Escenario mínimo recomendado de 4x3 metros para el despliegue del cuarteto.
+
+::: {.text-center .my-5}
+[Descargar Dossier Completo (PDF)](Dossier_Coverdrive.pdf){.btn-cd target="_blank"}
+:::
+
+:::

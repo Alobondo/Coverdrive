@@ -1,0 +1,49 @@
+---
+title: "Banda"
+page-layout: full
+toc: false
+---
+
+::: {.page-banner}
+# La Banda
+
+::: {.page-banner-sub}
+Cuarteto Eléctrico en Vivo &middot; Santiago, Chile
+:::
+:::
+
+::: {.container}
+
+Cuatro integrantes, una misma pasión por el heavy rock y el grunge de los 90 y 2000.
+
+::: {.band-grid}
+::: {.band-card}
+<img src="Images/Lu2.jpeg" alt="Luciano Panizza - Voz Principal">
+[Voz Principal]{.role}\
+[Luciano Panizza]{.name}\
+["Lu"]{.nickname}
+:::
+
+::: {.band-card}
+<img src="Images/Dan2.jpeg" alt="Daniel Rojas - Guitarra Eléctrica">
+[Guitarra Eléctrica]{.role}\
+[Daniel Rojas]{.name}\
+["Dan"]{.nickname}
+:::
+
+::: {.band-card}
+<img src="Images/Bau1.jpeg" alt="Bautista Soto - Bajo">
+[Bajo]{.role}\
+[Bautista Soto]{.name}\
+["Bau"]{.nickname}
+:::
+
+::: {.band-card}
+<img src="Images/Bondo3.jpeg" alt="Alonso Arriagada - Batería">
+[Batería]{.role}\
+[Alonso Arriagada]{.name}\
+["Bondo"]{.nickname}
+:::
+:::
+
+:::

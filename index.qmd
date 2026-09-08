@@ -1,19 +1,86 @@
 ---
-title: "About Me"
-about:
-  id: me
-  template: broadside
-  image: img/profile.png
+title: "Coverdrive"
+page-layout: full
+toc: false
 ---
 
-:::{#me}
+::: {.hero}
+<img src="Images/Logo.jpeg" class="hero-logo" alt="Logo Coverdrive">
 
-## Goals
+# [COVER]{.cd-white}[DRIVE]{.cd-red} {.hero-title}
 
-## Education
-
-## Experience
-
+::: {.hero-tagline}
+Heavy Rock &middot; Rock Alternativo &middot; Grunge — Santiago, Chile
 :::
 
-Thanks for checking out my web site!
+::: {.hero-cta}
+[Ver Repertorio](repertorio.qmd){.btn-cd}
+[Contrataciones](contacto.qmd){.btn-cd .btn-cd-outline}
+:::
+:::
+
+::: {.container}
+
+## Resumen Ejecutivo
+
+**Coverdrive** es una banda chilena de covers de heavy rock enfocada en revivir con máxima fidelidad, garra y potencia los grandes clásicos del género de los años 90 y 2000. Formada por cuatro músicos —voz, guitarra eléctrica, bajo y batería—, la agrupación destaca por la contundencia de su sonido en vivo, una cuidada ejecución técnica y una puesta en escena de alta energía diseñada para conectar de inmediato con el público.
+
+::: {.quick-facts}
+::: {.quick-fact}
+[Origen]{.qf-label}\
+[Santiago, Chile]{.qf-value}
+:::
+
+::: {.quick-fact}
+[Género]{.qf-label}\
+[Heavy Rock / Alternativo / Grunge]{.qf-value}
+:::
+
+::: {.quick-fact}
+[Formato]{.qf-label}\
+[Cuarteto Eléctrico en Vivo]{.qf-value}
+:::
+
+::: {.quick-fact}
+[Duración del show]{.qf-label}\
+[60 – 90 minutos]{.qf-value}
+:::
+:::
+
+## Conoce a la Banda
+
+Cuatro músicos, un solo objetivo: revivir los himnos del rock pesado con toda su potencia arriba del escenario.
+
+::: {.band-grid}
+<a class="band-card" href="banda.qmd">
+<img src="Images/Lu2.jpeg" alt="Luciano Panizza - Voz">
+[Voz Principal]{.role}\
+[Luciano]{.name}\
+["Lu" Panizza]{.nickname}
+</a>
+<a class="band-card" href="banda.qmd">
+<img src="Images/Dan2.jpeg" alt="Daniel Rojas - Guitarra">
+[Guitarra Eléctrica]{.role}\
+[Daniel]{.name}\
+["Dan" Rojas]{.nickname}
+</a>
+<a class="band-card" href="banda.qmd">
+<img src="Images/Bau1.jpeg" alt="Bautista Soto - Bajo">
+[Bajo]{.role}\
+[Bautista]{.name}\
+["Bau" Soto]{.nickname}
+</a>
+<a class="band-card" href="banda.qmd">
+<img src="Images/Bondo3.jpeg" alt="Alonso Arriagada - Batería">
+[Batería]{.role}\
+[Alonso]{.name}\
+["Bondo" Arriagada]{.nickname}
+</a>
+:::
+
+::: {.text-center .my-5}
+[Rider Técnico](rider.qmd){.btn-cd .btn-cd-outline}
+[Escríbenos](contacto.qmd){.btn-cd}
+:::
+
+:::

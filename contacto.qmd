@@ -1,0 +1,42 @@
+---
+title: "Contacto"
+page-layout: full
+toc: false
+---
+
+::: {.page-banner}
+# Contacto
+
+::: {.page-banner-sub}
+Shows, contrataciones y prensa
+:::
+:::
+
+::: {.container}
+
+## Material Multimedia & Redes
+
+- **Instagram:** [@coverdrive.rock](https://www.instagram.com/coverdrive.rock/) — Registro de presentaciones en vivo, ensayos y contenido con la audiencia.
+- **Material Audiovisual:** Registro en video HD de shows en recintos del circuito local (BarZuo, LPA Restobar, entre otros), disponible previa solicitud o vía Reels en nuestro perfil.
+
+## Escríbenos
+
+::: {.contact-row}
+<a class="contact-card" href="mailto:rock.coverdrive@gmail.com">
+<i class="bi bi-envelope-fill"></i>
+[Correo]{.cc-label}\
+[rock.coverdrive@gmail.com]{.cc-value}
+</a>
+<a class="contact-card" href="https://www.instagram.com/coverdrive.rock/" target="_blank">
+<i class="bi bi-instagram"></i>
+[Instagram]{.cc-label}\
+[@coverdrive.rock]{.cc-value}
+</a>
+<a class="contact-card" href="https://www.facebook.com/people/Coverdrive/61593947563282/" target="_blank">
+<i class="bi bi-facebook"></i>
+[Facebook]{.cc-label}\
+[Coverdrive]{.cc-value}
+</a>
+:::
+
+:::

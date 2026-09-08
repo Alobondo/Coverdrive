@@ -1,0 +1,37 @@
+---
+title: "Repertorio"
+page-layout: full
+toc: false
+---
+
+::: {.page-banner}
+# Propuesta Escénica & Repertorio
+
+::: {.page-banner-sub}
+Los himnos que marcaron una generación
+:::
+:::
+
+::: {.container}
+
+El show de Coverdrive recorre los mayores himnos del rock pesado y metal alternativo que marcaron a una generación. Es un espectáculo dinámico, lleno de riffs potentes y momentos de alta interacción con la audiencia, ideal para el circuito de pubs, escenarios nocturnos y festivales.
+
+## Setlist
+
+- **System of a Down:** *Aerials*
+- **Audioslave / Soundgarden:** *Show Me How to Live*, *Be Yourself*
+- **Alice in Chains:** *Man in the Box*, *Would?*
+- **Foo Fighters:** *Everlong*, *The Pretender*
+- **Clásicos del Heavy Rock & Grunge:** Stone Temple Pilots, Papa Roach, Blur, Nirvana, Velvet Revolver
+
+::: {.rider-block}
+### Duración habitual del show
+
+Desde 60 hasta 90 minutos de música en vivo.
+:::
+
+::: {.text-center .my-5}
+[Reserva una fecha](contacto.qmd){.btn-cd}
+:::
+
+:::

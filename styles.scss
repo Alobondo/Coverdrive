@@ -1,0 +1,398 @@
+/*-- scss:defaults --*/
+
+// Paleta Coverdrive
+$cd-red:        #e4002b;
+$cd-red-dark:   #a3001f;
+$cd-black:      #0a0a0a;
+$cd-black-soft: #151515;
+$cd-gray:       #232323;
+$cd-white:      #f5f5f5;
+
+// Tipografía
+$headings-font-family: "Anton", "Oswald", sans-serif;
+$font-family-sans-serif: "Inter", "Oswald", system-ui, -apple-system, sans-serif;
+
+// Bootstrap / darkly overrides
+$primary:    $cd-red;
+$secondary:  $cd-gray;
+$body-bg:    $cd-black;
+$body-color: $cd-white;
+
+$link-color:         $cd-red;
+$link-hover-color:   lighten($cd-red, 12%);
+$link-decoration:    none;
+
+$navbar-bg: $cd-black;
+$navbar-fg: $cd-white;
+$footer-bg: $cd-black;
+$footer-fg: darken($cd-white, 25%);
+
+$border-color: $cd-gray;
+
+/*-- scss:rules --*/
+
+body {
+  letter-spacing: 0.01em;
+}
+
+#title-block-header {
+  display: none;
+}
+
+/* Unwrap paragraphs pandoc adds around inline link/anchor content so
+   flex/grid containers see the cards as direct items. */
+.hero-cta > p,
+.band-grid > p,
+.contact-row > p {
+  display: contents;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+  color: $cd-white;
+}
+
+h2 {
+  border-left: 6px solid $cd-red;
+  padding-left: 0.6em;
+  margin-top: 2.2em;
+  font-size: 1.5rem;
+}
+
+h3 {
+  color: $cd-red;
+  font-family: "Oswald", sans-serif;
+  font-size: 1.15rem;
+  letter-spacing: 0.08em;
+}
+
+a {
+  transition: color 0.15s ease-in-out;
+}
+
+.navbar {
+  border-bottom: 2px solid $cd-red;
+}
+
+.navbar-brand img {
+  border-radius: 50%;
+  border: 2px solid $cd-red;
+}
+
+.navbar .nav-link,
+.navbar-nav .nav-link {
+  font-family: "Oswald", sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  font-size: 0.9rem;
+}
+
+footer.footer {
+  border-top: 2px solid $cd-red;
+  font-family: "Oswald", sans-serif;
+  text-transform: uppercase;
+  font-size: 0.8rem;
+  letter-spacing: 0.06em;
+}
+
+/* ---------- Hero ---------- */
+
+.hero {
+  position: relative;
+  margin: -1px -1px 0 -1px;
+  min-height: 78vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background-image:
+    linear-gradient(180deg, rgba(10,10,10,0.55) 0%, rgba(10,10,10,0.85) 55%, $cd-black 100%),
+    url("Images/Barzuo.jpeg");
+  background-size: cover;
+  background-position: center 30%;
+  padding: 3rem 1rem;
+}
+
+.hero-logo {
+  width: 140px;
+  height: 140px;
+  border-radius: 50%;
+  border: 3px solid $cd-red;
+  margin-bottom: 1.5rem;
+  box-shadow: 0 0 40px rgba(228, 0, 43, 0.35);
+}
+
+.hero-title {
+  font-family: "Anton", sans-serif;
+  font-size: clamp(2.8rem, 9vw, 5.5rem);
+  line-height: 0.95;
+  margin: 0;
+  border: none;
+  padding: 0;
+}
+
+.hero-title .cd-white { color: $cd-white; }
+.hero-title .cd-red   { color: $cd-red; text-shadow: 2px 0 0 rgba(228,0,43,0.5), -2px 0 0 rgba(255,255,255,0.15); }
+
+.hero-tagline {
+  font-family: "Oswald", sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 0.18em;
+  font-size: clamp(0.85rem, 2vw, 1.1rem);
+  color: darken($cd-white, 10%);
+  margin: 1rem 0 2rem 0;
+}
+
+.hero-cta {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+/* ---------- Botones ---------- */
+
+.btn-cd {
+  font-family: "Oswald", sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  font-weight: 600;
+  background-color: $cd-red;
+  color: $cd-white !important;
+  border: 2px solid $cd-red;
+  padding: 0.6rem 1.6rem;
+  border-radius: 2px;
+}
+
+.btn-cd:hover {
+  background-color: transparent;
+  color: $cd-red !important;
+}
+
+.btn-cd-outline {
+  background-color: transparent;
+  color: $cd-white !important;
+  border: 2px solid $cd-white;
+}
+
+.btn-cd-outline:hover {
+  background-color: $cd-white;
+  color: $cd-black !important;
+  border-color: $cd-white;
+}
+
+/* ---------- Banner secundario (páginas internas) ---------- */
+
+.page-banner {
+  position: relative;
+  min-height: 32vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background-image:
+    linear-gradient(180deg, rgba(10,10,10,0.6) 0%, $cd-black 100%),
+    url("Images/Band3.jpeg");
+  background-size: cover;
+  background-position: center 25%;
+  margin: -1px -1px 2rem -1px;
+}
+
+.page-banner h1 {
+  font-family: "Anton", sans-serif;
+  font-size: clamp(2rem, 6vw, 3.2rem);
+  color: $cd-white;
+  border: none;
+  padding: 0;
+  margin: 0;
+}
+
+.page-banner .page-banner-sub {
+  font-family: "Oswald", sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 0.15em;
+  color: $cd-red;
+  font-size: 0.9rem;
+  margin-top: 0.5rem;
+}
+
+/* ---------- Datos rápidos (badges) ---------- */
+
+.quick-facts {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+  gap: 1rem;
+  margin: 2rem 0;
+}
+
+.quick-fact {
+  background-color: $cd-black-soft;
+  border: 1px solid $cd-gray;
+  border-top: 3px solid $cd-red;
+  padding: 1.1rem 1rem;
+  text-align: center;
+  border-radius: 3px;
+}
+
+.quick-fact .qf-label {
+  font-family: "Oswald", sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  font-size: 0.72rem;
+  color: $cd-red;
+  display: block;
+  margin-bottom: 0.35rem;
+}
+
+.quick-fact .qf-value {
+  font-family: "Oswald", sans-serif;
+  font-size: 1rem;
+  color: $cd-white;
+}
+
+/* ---------- Banda: tarjetas de integrantes ---------- */
+
+.band-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 1.5rem;
+  margin: 2rem 0 3rem 0;
+}
+
+.band-card {
+  display: block;
+  background-color: $cd-black-soft;
+  border: 1px solid $cd-gray;
+  border-radius: 4px;
+  overflow: hidden;
+  text-align: center;
+  text-decoration: none;
+  transition: border-color 0.2s ease-in-out, transform 0.2s ease-in-out;
+}
+
+.band-card:hover {
+  border-color: $cd-red;
+  transform: translateY(-4px);
+}
+
+.band-card img {
+  width: 100%;
+  aspect-ratio: 3 / 4;
+  object-fit: cover;
+  object-position: top center;
+  filter: grayscale(85%) contrast(1.05);
+  transition: filter 0.25s ease-in-out;
+  display: block;
+}
+
+.band-card:hover img {
+  filter: grayscale(0%) contrast(1.05);
+}
+
+.band-card {
+  padding-bottom: 1.3rem;
+}
+
+.band-card img {
+  margin-bottom: 1rem;
+}
+
+.band-card .role {
+  display: block;
+  font-family: "Oswald", sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+  color: $cd-red;
+  font-size: 0.78rem;
+  margin-bottom: 0.3rem;
+  padding: 0 0.75rem;
+}
+
+.band-card .name {
+  display: block;
+  font-family: "Anton", sans-serif;
+  font-size: 1.3rem;
+  color: $cd-white;
+  letter-spacing: 0.02em;
+  padding: 0 0.75rem;
+}
+
+.band-card .nickname {
+  display: inline-block;
+  margin-top: 0.5rem;
+  font-family: "Oswald", sans-serif;
+  font-size: 0.75rem;
+  letter-spacing: 0.08em;
+  color: darken($cd-white, 25%);
+  border: 1px solid $cd-gray;
+  border-radius: 20px;
+  padding: 0.15rem 0.7rem;
+}
+
+/* ---------- Contacto ---------- */
+
+.contact-row {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 1.5rem;
+  margin: 2rem 0;
+}
+
+.contact-card {
+  background-color: $cd-black-soft;
+  border: 1px solid $cd-gray;
+  border-radius: 4px;
+  padding: 2rem 1rem;
+  text-align: center;
+  display: block;
+  text-decoration: none;
+}
+
+.contact-card:hover {
+  border-color: $cd-red;
+}
+
+.contact-card i {
+  font-size: 2.2rem;
+  color: $cd-red;
+  display: block;
+  margin-bottom: 0.75rem;
+}
+
+.contact-card .cc-label {
+  font-family: "Oswald", sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  font-size: 0.75rem;
+  color: darken($cd-white, 15%);
+  display: block;
+  margin-bottom: 0.25rem;
+}
+
+.contact-card .cc-value {
+  font-family: "Oswald", sans-serif;
+  color: $cd-white !important;
+  font-size: 0.95rem;
+  word-break: break-word;
+}
+
+/* ---------- Callout tipo rider ---------- */
+
+.rider-block {
+  background-color: $cd-black-soft;
+  border: 1px solid $cd-gray;
+  border-left: 4px solid $cd-red;
+  padding: 1.2rem 1.4rem;
+  border-radius: 3px;
+  margin: 1.2rem 0;
+}
+
+.rider-block h3 {
+  margin-top: 0;
+}
+
+blockquote {
+  border-left: 4px solid $cd-red;
+  color: darken($cd-white, 10%);
+}
