@@ -21,6 +21,20 @@
     "text": "Project 3"
   },
   {
+    "objectID": "Fotos.html",
+    "href": "Fotos.html",
+    "title": "Fotos",
+    "section": "",
+    "text": "Fotos\n\nImágenes de la Banda\n\n\n\nFotos de eventos y ensayos\n\n\n Barzuo - Agosto 2026\n\n\n La Puerta Amarilla - Agosto 2026\n\n\n Santiago Fight Club - Abril 2026"
+  },
+  {
+    "objectID": "banda.html",
+    "href": "banda.html",
+    "title": "Banda",
+    "section": "",
+    "text": "La Banda\n\nCuarteto Eléctrico en Vivo · Santiago, Chile\n\n\n\nCuatro integrantes, una misma pasión por el heavy rock y el grunge de los 90 y 2000.\n\n\n Voz Principal y Segunda Guitarra\nLuciano Panizza\n“Lu”\n\n\n Guitarra Eléctrica y Coros\nDaniel Rojas\n“Dan”\n\n\n Bajo\nBautista Soto\n“Bau”\n\n\n Batería\nAlonso Arriagada\n“Bondo”"
+  },
+  {
     "objectID": "contacto.html",
     "href": "contacto.html",
     "title": "Contacto",
@@ -42,13 +56,6 @@
     "text": "Escríbenos\n\n  Correo\nrock.coverdrive@gmail.com    Instagram\n@coverdrive.rock    Facebook\nCoverdrive"
   },
   {
-    "objectID": "banda.html",
-    "href": "banda.html",
-    "title": "Banda",
-    "section": "",
-    "text": "La Banda\n\nCuarteto Eléctrico en Vivo · Santiago, Chile\n\n\n\nCuatro integrantes, una misma pasión por el heavy rock y el grunge de los 90 y 2000.\n\n\n Voz Principal\nLuciano Panizza\n“Lu”\n\n\n Guitarra Eléctrica\nDaniel Rojas\n“Dan”\n\n\n Bajo\nBautista Soto\n“Bau”\n\n\n Batería\nAlonso Arriagada\n“Bondo”"
-  },
-  {
     "objectID": "index.html",
     "href": "index.html",
     "title": "Coverdrive",
@@ -67,7 +74,7 @@
     "href": "index.html#conoce-a-la-banda",
     "title": "Coverdrive",
     "section": "Conoce a la Banda",
-    "text": "Conoce a la Banda\nCuatro músicos, un solo objetivo: revivir los himnos del rock pesado con toda su potencia arriba del escenario.\n\n  Voz Principal\nLuciano\n“Lu” Panizza    Guitarra Eléctrica\nDaniel\n“Dan” Rojas    Bajo\nBautista\n“Bau” Soto    Batería\nAlonso\n“Bondo” Arriagada \n\n\nRider Técnico Escríbenos"
+    "text": "Conoce a la Banda\nCuatro músicos, un solo objetivo: revivir los himnos del rock pesado con toda su potencia arriba del escenario.\n\n  Voz Principal y Segunda Guitarra\nLu\nLuciano Panizza    Guitarra Eléctrica y Coros\nDan\nDaniel Rojas    Bajo\nBau\nBautista Soto    Batería\nBondo\nAlonso Arriagada \n\n\nRider Técnico Escríbenos"
   },
   {
     "objectID": "repertorio.html",

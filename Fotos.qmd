@@ -1,0 +1,37 @@
+---
+title: "Fotos"
+page-layout: full
+toc: false
+---
+
+::: {.page-banner}
+# Fotos
+
+::: {.page-banner-sub}
+Imágenes de la Banda
+:::
+:::
+
+::: {.container}
+
+Fotos de eventos y ensayos
+
+::: {.band-grid}
+::: {.band-card}
+<img src="Images/Barzuo.jpeg" alt="Barzuo - Agosto 2026">
+[Barzuo - Agosto 2026]{.name}
+:::
+
+::: {.band-card}
+<img src="Images/LPA8.jpeg" alt="LPA - Agosto 2026">
+[La Puerta Amarilla - Agosto 2026]{.name}
+:::
+
+::: {.band-card}
+<img src="Images/SFC1.jpeg" alt="SFC - Abril 2026">
+[Santiago Fight Club - Abril 2026]{.name}
+:::
+
+:::
+
+:::

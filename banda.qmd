@@ -19,14 +19,14 @@ Cuatro integrantes, una misma pasión por el heavy rock y el grunge de los 90 y 
 ::: {.band-grid}
 ::: {.band-card}
 <img src="Images/Lu2.jpeg" alt="Luciano Panizza - Voz Principal">
-[Voz Principal]{.role}\
+[Voz Principal y Segunda Guitarra]{.role}\
 [Luciano Panizza]{.name}\
 ["Lu"]{.nickname}
 :::
 
 ::: {.band-card}
 <img src="Images/Dan2.jpeg" alt="Daniel Rojas - Guitarra Eléctrica">
-[Guitarra Eléctrica]{.role}\
+[Guitarra Eléctrica y Coros]{.role}\
 [Daniel Rojas]{.name}\
 ["Dan"]{.nickname}
 :::
@@ -39,7 +39,7 @@ Cuatro integrantes, una misma pasión por el heavy rock y el grunge de los 90 y 
 :::
 
 ::: {.band-card}
-<img src="Images/Bondo3.jpeg" alt="Alonso Arriagada - Batería">
+<img src="Images/Alonso1.jpeg" alt="Alonso Arriagada - Batería">
 [Batería]{.role}\
 [Alonso Arriagada]{.name}\
 ["Bondo"]{.nickname}

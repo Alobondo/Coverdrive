@@ -30,6 +30,8 @@ website:
         href: banda.qmd
       - text: Rider Técnico
         href: rider.qmd
+      - text: Fotos
+        href: Fotos.qmd
       - text: Contacto
         href: contacto.qmd
     right:

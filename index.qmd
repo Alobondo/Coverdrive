@@ -54,27 +54,27 @@ Cuatro músicos, un solo objetivo: revivir los himnos del rock pesado con toda s
 ::: {.band-grid}
 <a class="band-card" href="banda.qmd">
 <img src="Images/Lu2.jpeg" alt="Luciano Panizza - Voz">
-[Voz Principal]{.role}\
-[Luciano]{.name}\
-["Lu" Panizza]{.nickname}
+[Voz Principal y Segunda Guitarra]{.role}\
+[Lu]{.name}\
+[Luciano Panizza]{.nickname}
 </a>
 <a class="band-card" href="banda.qmd">
 <img src="Images/Dan2.jpeg" alt="Daniel Rojas - Guitarra">
-[Guitarra Eléctrica]{.role}\
-[Daniel]{.name}\
-["Dan" Rojas]{.nickname}
+[Guitarra Eléctrica y Coros]{.role}\
+[Dan]{.name}\
+[Daniel Rojas]{.nickname}
 </a>
 <a class="band-card" href="banda.qmd">
 <img src="Images/Bau1.jpeg" alt="Bautista Soto - Bajo">
 [Bajo]{.role}\
-[Bautista]{.name}\
-["Bau" Soto]{.nickname}
+[Bau]{.name}\
+[Bautista Soto]{.nickname}
 </a>
 <a class="band-card" href="banda.qmd">
-<img src="Images/Bondo3.jpeg" alt="Alonso Arriagada - Batería">
+<img src="Images/Alonso1.jpeg" alt="Alonso Arriagada - Batería">
 [Batería]{.role}\
-[Alonso]{.name}\
-["Bondo" Arriagada]{.nickname}
+[Bondo]{.name}\
+[Alonso Arriagada]{.nickname}
 </a>
 :::
 
