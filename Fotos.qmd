@@ -1,5 +1,5 @@
 ---
-title: "Fotos"
+title: "Fotos y Videos"
 page-layout: full
 toc: false
 ---
@@ -14,12 +14,12 @@ Imágenes de la Banda
 
 ::: {.container}
 
-Fotos de eventos y ensayos
+Fotos de eventos
 
 ::: {.band-grid}
 ::: {.band-card}
-<img src="Images/Barzuo.jpeg" alt="Barzuo - Agosto 2026">
-[Barzuo - Agosto 2026]{.name}
+<img src="Images/Barzuo.jpeg" alt="BarZuo - Agosto 2026">
+[BarZuo - Agosto 2026]{.name}
 :::
 
 ::: {.band-card}
@@ -31,6 +31,32 @@ Fotos de eventos y ensayos
 <img src="Images/SFC1.jpeg" alt="SFC - Abril 2026">
 [Santiago Fight Club - Abril 2026]{.name}
 :::
+
+:::
+
+
+::: {.container}
+
+Videos de eventos
+
+::: {.band-grid}
+::: {.band-card}
+
+
+<iframe width="560" height="315"
+        src="https://www.youtube-nocookie.com/embed/zoTIPFaJL2M"
+        title="BarZuo - Agosto 2026"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        referrerpolicy="strict-origin-when-cross-origin"
+        allowfullscreen>
+</iframe>
+
+
+
+[BarZuo - Agosto 2026]{.name}
+:::
+
 
 :::
 
